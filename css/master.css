@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'caveatbold';
+  src: url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.eot");
+  src: url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.woff2") format("woff2"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.woff") format("woff"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.ttf") format("truetype"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.svg#caveatbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+td:not([align]), th:not([align]) {
+  text-align: left;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0.7em;
+  font-size: 5em;
+  font-weight: bolder;
+  letter-spacing: -0.075em;
+  color: #fdcb46;
+}
+
+h2 {
+  font-family: "caveatbold";
+  font-size: 1.8em;
+  margin: 0.3em;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fdcb46;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  background-color: #579c87;
+  display: flex;
+  justify-content: center;
+}
+
+.body__home-page {
+  margin: 5em 0;
+}
+
+nav {
+  margin: 0 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav__menu {
+  width: 350px;
+  height: 430px;
+  margin: 1em;
+  background-color: #fcdfdb;
+  display: flex;
+  align-items: center;
+}
+
+.menu__txt {
+  text-align: center;
+  width: 100%;
+}
+
+.menu__txt p {
+  font-size: 2.5em;
+}
+
+.home-page__box-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.box-btn__btn {
+  margin-top: 1em;
+  padding: 1em 3em;
+  cursor: pointer;
+  background-color: #579c87;
+  color: #fdcb46;
+  border-radius: 0.8em;
+}
+
+.box-btn__btn p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #579c87;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=master.css.map */
