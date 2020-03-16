@@ -55,6 +55,10 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
+h2, .nav__menu p {
+  font-family: "caveatbold";
+}
+
 * {
   font-family: sans-serif;
 }
@@ -68,7 +72,6 @@ h1 {
 }
 
 h2 {
-  font-family: "caveatbold";
   font-size: 1.8em;
   margin: 0.3em;
 }
@@ -93,6 +96,10 @@ header {
   margin: 5em 0;
 }
 
+.space {
+  height: 48px;
+}
+
 nav {
   margin: 0 5em;
   display: flex;
@@ -107,6 +114,7 @@ nav {
   background-color: #fcdfdb;
   display: flex;
   align-items: center;
+  box-shadow: 5px 5px 25px #999;
 }
 
 .menu__txt {
@@ -116,6 +124,50 @@ nav {
 
 .menu__txt p {
   font-size: 2.5em;
+}
+
+.frame {
+  overflow: hidden;
+}
+
+.menu--note p {
+  text-transform: uppercase;
+}
+
+.menu__txt {
+  transition: all 1000ms;
+  height: 430px;
+  padding-top: 40%;
+}
+
+.menu__txt:hover {
+  transform: scale(1.5);
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.menu--chic {
+  background-color: #fff5fe;
+}
+
+.menu--chic h2, .menu--chic p {
+  font-family: serif;
+}
+
+.menu--chic h2 {
+  letter-spacing: -2px;
+}
+
+.menu--chic p {
+  font-weight: bold;
+}
+
+.menu--papilles {
+  background-color: #f9f9f9;
+}
+
+.menu--palette {
+  background-color: #fdfffd;
 }
 
 .home-page__box-btn {

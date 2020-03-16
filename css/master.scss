@@ -5,9 +5,15 @@
 $background-color1: #fff;
 $background-color2: #579c87;
 $colorH1: #fdcb46;
+
+h2, .nav__menu p {
+  font-family: "caveatbold";
+}
+
 *{
     font-family: sans-serif;
 }
+
 h1 {
   margin: 0.7em;
   font-size: 5em;
@@ -15,19 +21,22 @@ h1 {
   letter-spacing: -0.075em;
   color: $colorH1;
 }
+
 h2{
-  font-family: "caveatbold";
   font-size: 1.8em;
   margin: 0.3em;
 }
+
 a {
   font-weight: bold;
   text-decoration: none;
   color: $colorH1;
 }
+
 body{
   background-color: $background-color1
 }
+
 header{
   background-color: $background-color2;
   display: flex;
@@ -36,12 +45,18 @@ header{
 .body__home-page{
   margin: 5em 0;
 }
+
+.space {
+  height: 48px;
+}
+
 nav {
   margin: 0 5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .nav__menu{
   width: 350px;
   height: 430px;
@@ -49,7 +64,9 @@ nav {
   background-color: #fcdfdb;
   display: flex;
   align-items: center;
+  box-shadow: 5px 5px 25px #999;
 }
+
 .menu__txt{
   text-align: center;
   width: 100%;
@@ -57,6 +74,44 @@ nav {
     font-size: 2.5em;
   }
 }
+
+.frame {
+  overflow: hidden;
+}
+
+.menu--note p {
+  text-transform: uppercase;
+}
+.menu__txt {
+  transition: all 1000ms;
+  height: 430px;
+  padding-top: 40%;
+  &:hover{
+    transform: scale(1.5);
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
+
+.menu--chic {
+  background-color: #fff5fe;
+  h2, p {
+    font-family: serif;
+  }
+  h2 {
+    letter-spacing: -2px;
+  }
+  p {
+    font-weight: bold;
+  }
+}
+.menu--papilles {
+  background-color: #f9f9f9;
+}
+.menu--palette {
+  background-color: #fdfffd;
+}
+
 .home-page__box-btn{
   display: flex;
   justify-content: center;
