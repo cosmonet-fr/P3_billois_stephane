@@ -59,16 +59,24 @@ h2, .nav__menu p {
   font-family: "caveatbold";
 }
 
-* {
+h1, footer a, .home-page__box-btn p {
   font-family: sans-serif;
 }
 
-h1 {
+header h1 {
   margin: 0.7em;
   font-size: 5em;
   font-weight: bolder;
   letter-spacing: -0.075em;
   color: #fdcb46;
+}
+
+h1 {
+  text-align: center;
+  margin: 0.5em;
+  font-size: 3.2em;
+  font-weight: bold;
+  color: black;
 }
 
 h2 {
@@ -117,6 +125,14 @@ nav {
   box-shadow: 5px 5px 25px #999;
 }
 
+.nav__menu a {
+  color: black;
+}
+
+.nav__menu img {
+  width: 48px;
+}
+
 .menu__txt {
   text-align: center;
   width: 100%;
@@ -150,11 +166,11 @@ nav {
   background-color: #fff5fe;
 }
 
-.menu--chic h2, .menu--chic p {
+.menu--chic h2, .menu--chic a, .menu--chic p {
   font-family: serif;
 }
 
-.menu--chic h2 {
+.menu--chic h2, .menu--chic a {
   letter-spacing: -2px;
 }
 
@@ -187,6 +203,10 @@ nav {
 .box-btn__btn p {
   font-size: 1em;
   font-weight: bold;
+}
+
+.space {
+  margin: 12px;
 }
 
 footer {

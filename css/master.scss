@@ -10,16 +10,24 @@ h2, .nav__menu p {
   font-family: "caveatbold";
 }
 
-*{
+h1, footer a, .home-page__box-btn p {
     font-family: sans-serif;
 }
 
-h1 {
+header h1 {
   margin: 0.7em;
   font-size: 5em;
   font-weight: bolder;
   letter-spacing: -0.075em;
   color: $colorH1;
+}
+
+h1{
+  text-align: center;
+  margin: 0.5em;
+  font-size: 3.2em;
+  font-weight: bold;
+  color: black;
 }
 
 h2{
@@ -65,6 +73,12 @@ nav {
   display: flex;
   align-items: center;
   box-shadow: 5px 5px 25px #999;
+  a {
+    color: black
+  }
+  img {
+    width: 48px;
+  }
 }
 
 .menu__txt{
@@ -95,10 +109,10 @@ nav {
 
 .menu--chic {
   background-color: #fff5fe;
-  h2, p {
+  h2, a, p {
     font-family: serif;
   }
-  h2 {
+  h2, a {
     letter-spacing: -2px;
   }
   p {
@@ -128,6 +142,9 @@ nav {
     font-weight: bold;
   }
 
+}
+.space {
+  margin: 12px;
 }
 footer{
   position: fixed;

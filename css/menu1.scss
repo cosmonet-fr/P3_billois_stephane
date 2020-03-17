@@ -1,4 +1,70 @@
 .menu1 {
-  margin: 50px;
+  padding: 80px;
+  .logoMenu{
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 100px;
+  }
+  *{
+    font-family: "caveatbold";
+  }
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+  }
+  ul {
+    font-weight: lighter;
+  }
+  li{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    em{
+      font-weight: bold;
+      float: right;
+    }
+  }
+  margin: auto;
+  margin-top: 25px;
+  width: 970px;
   background-color: #fcdfdb;
+  h2{
+    text-align: center;
+  }
+  hr {
+    height: 25px;
+    margin-top: 30px;
+    border: none;
+    text-align: center;
+    background: url(../img/hrMenu1.png) no-repeat top center;
+
+
+    &:after {
+      //content: 'Prélude';
+      font-size: 50px;
+      color: #3d1319;
+      position: relative;
+      top: -24px;
+
+
+    }
+  }
+  .logoMenuBottom {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    h2 {
+      font-size: 2.2em;
+    }
+    img {
+      width: 60px;
+    }
+  }
+
 }
