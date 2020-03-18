@@ -1,0 +1,95 @@
+.menu2 {
+  padding: 80px;
+  margin: auto;
+  margin-top: 25px;
+  width: 970px;
+  background-color: #fff5fe;
+}
+
+.menu2 .logoMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu2 img {
+  width: 100px;
+}
+
+.menu2 * {
+  font-family: serif;
+}
+
+.menu2 h2 {
+  font-size: 2.4em;
+  margin: 2em;
+}
+
+.menu2 h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+}
+
+.menu2 ul {
+  font-weight: lighter;
+}
+
+.menu2 li {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.menu2 li em {
+  font-weight: bold;
+  float: right;
+}
+
+.menu2 h2 {
+  text-align: center;
+}
+
+.menu2 hr {
+  height: 25px;
+  margin-top: 30px;
+  border: none;
+  text-align: center;
+}
+
+.menu2 hr:after {
+  font-size: 50px;
+  color: #3d1319;
+  position: relative;
+  top: -24px;
+}
+
+.menu2 .sec_menu {
+  margin-bottom: 80px;
+}
+
+.menu2 .entree * {
+  color: #c67412;
+}
+
+.menu2 .entree hr {
+  background: url(../img/hrMenu2-1.png) no-repeat top center;
+}
+
+.menu2 .plat * {
+  color: #a56799;
+}
+
+.menu2 .plat hr {
+  background: url(../img/hrMenu2-2.png) no-repeat top center;
+}
+
+.menu2 .dessert * {
+  color: #6e4ccc;
+}
+
+.menu2 .dessert hr {
+  background: url(../img/hrMenu2-3.png) no-repeat top center;
+}
+
+/*# sourceMappingURL=menu2.css.map */
