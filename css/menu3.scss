@@ -11,6 +11,9 @@
     font-family: "caveatbold";
   }
   h2 {
+    background: -webkit-gradient(linear, left top, right top, from(#023be3), to(#229df9));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 3.8em;
     margin: 1em;
   }

@@ -1,0 +1,78 @@
+.menu4 {
+  padding: 80px;
+  margin: auto;
+  margin-top: 25px;
+  width: 970px;
+  background-color: #fdfffd;
+}
+
+.menu4 .logoMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu4 img {
+  width: 100px;
+}
+
+.menu4 * {
+  font-family: "caveatbold", cursive;
+}
+
+.menu4 h2 {
+  font-family: 'Yesteryear', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#4e9e4c), to(#bcfd7e));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4em;
+  margin: 1em;
+}
+
+.menu4 h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  bottom: 38px;
+  right: 7px;
+}
+
+.menu4 ul {
+  font-weight: lighter;
+}
+
+.menu4 li {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.menu4 li em {
+  font-weight: bold;
+  float: right;
+}
+
+.menu4 h2 {
+  text-align: center;
+}
+
+.menu4 hr {
+  height: 25px;
+  margin-top: 30px;
+  border: none;
+  text-align: center;
+  background: url(../img/hrMenu4-1.svg) no-repeat top center;
+  background-size: 840px 25px;
+}
+
+.menu4 hr:after {
+  font-size: 50px;
+  color: #3d1319;
+  position: relative;
+  top: -24px;
+}
+
+.menu4 .sec_menu {
+  margin-bottom: 80px;
+}
+
+/*# sourceMappingURL=menu4.css.map */

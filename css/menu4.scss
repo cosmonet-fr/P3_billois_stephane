@@ -1,4 +1,4 @@
-.menu2 {
+.menu4 {
   padding: 80px;
   .logoMenu{
     display: flex;
@@ -8,24 +8,29 @@
     width: 100px;
   }
   *{
-    font-family: serif;
+    font-family: "caveatbold", cursive;
   }
   h2 {
-    font-size: 2.4em;
-    margin: 2em;
+    font-family: 'Yesteryear', cursive;
+    background: -webkit-gradient(linear, left top, right top, from(#4e9e4c), to(#bcfd7e));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    margin: 1em;
   }
   h3 {
-    font-size: 1em;
+    font-size: 1.8em;
     font-weight: bold;
     text-align: center;
     position: relative;
-    bottom: 23px;
+    bottom: 38px;
+    right: 7px;
   }
   ul {
     font-weight: lighter;
   }
   li{
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     em{
       font-weight: bold;
@@ -35,7 +40,7 @@
   margin: auto;
   margin-top: 25px;
   width: 970px;
-  background-color: #fff5fe;
+  background-color: #fdfffd;
   h2{
     text-align: center;
   }
@@ -44,7 +49,8 @@
     margin-top: 30px;
     border: none;
     text-align: center;
-    //background: url(../img/hrMenu1.png) no-repeat top center;
+    background: url(../img/hrMenu4-1.svg) no-repeat top center;
+    background-size: 840px 25px;
 
 
     &:after {
@@ -59,33 +65,5 @@
   .sec_menu{
     margin-bottom: 80px;
   }
-  .entree {
-    *{
-      color: #c67412;
-    }
-    hr{
-      background: url(../img/hrMenu3-1.svg) no-repeat top center;
-      background-size: 840px 25px;
-    }
-  }
-  .plat {
-    *{
-      color: #a56799;
-    }
-    hr{
-      background: url(../img/hrMenu3-2.svg) no-repeat top center;
-      background-size: 840px 25px;
-    }
-  }
-  .dessert{
-    *{
-      color: #6e4ccc;
-    }
-    hr{
-      background: url(../img/hrMenu3-3.svg) no-repeat top center;
-      background-size: 840px 25px;
-    }
-  }
-
 
 }
