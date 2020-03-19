@@ -1,4 +1,5 @@
 @import "../font/caveat/web fonts/caveat_bold_macroman/stylesheet.scss";
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
 
 @import "minireset.scss";
 
@@ -39,6 +40,10 @@ a {
   font-weight: bold;
   text-decoration: none;
   color: $colorH1;
+}
+
+a:active, a:focus {
+  outline: none;
 }
 
 body{

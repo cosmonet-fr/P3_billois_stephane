@@ -29,7 +29,7 @@
   font-weight: bold;
   text-align: center;
   position: relative;
-  bottom: 25px;
+  bottom: 23px;
 }
 
 .menu2 ul {
@@ -73,7 +73,8 @@
 }
 
 .menu2 .entree hr {
-  background: url(../img/hrMenu2-1.png) no-repeat top center;
+  background: url(../img/hrMenu2-1.svg) no-repeat top center;
+  background-size: 840px 25px;
 }
 
 .menu2 .plat * {
@@ -81,7 +82,8 @@
 }
 
 .menu2 .plat hr {
-  background: url(../img/hrMenu2-2.png) no-repeat top center;
+  background: url(../img/hrMenu2-2.svg) no-repeat top center;
+  background-size: 840px 25px;
 }
 
 .menu2 .dessert * {
@@ -89,7 +91,8 @@
 }
 
 .menu2 .dessert hr {
-  background: url(../img/hrMenu2-3.png) no-repeat top center;
+  background: url(../img/hrMenu2-3.svg) no-repeat top center;
+  background-size: 840px 25px;
 }
 
 /*# sourceMappingURL=menu2.css.map */

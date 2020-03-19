@@ -1,0 +1,85 @@
+.menu3 {
+  padding: 80px;
+  margin: auto;
+  margin-top: 25px;
+  width: 970px;
+  background-color: #edefef;
+}
+
+.menu3 .logoMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu3 h2 {
+  font-family: "Sofia", cursive;
+}
+
+.menu3 h3, .menu3 ul {
+  font-family: "caveatbold";
+}
+
+.menu3 h2 {
+  font-size: 3.8em;
+  margin: 1em;
+}
+
+.menu3 h3 {
+  font-size: 1.8em;
+  text-align: center;
+  position: relative;
+  bottom: 36px;
+}
+
+.menu3 ul {
+  font-weight: lighter;
+}
+
+.menu3 li {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.menu3 li em {
+  font-weight: bold;
+  float: right;
+}
+
+.menu3 h2 {
+  text-align: center;
+}
+
+.menu3 hr {
+  height: 25px;
+  margin-top: 30px;
+  border: none;
+  text-align: center;
+}
+
+.menu3 hr:after {
+  font-size: 50px;
+  color: #3d1319;
+  position: relative;
+  top: -24px;
+}
+
+.menu3 .sec_menu {
+  margin-bottom: 80px;
+}
+
+.menu3 .entree hr {
+  background: url(../img/hrMenu3-1.svg) no-repeat top center;
+  background-size: 840px 25px;
+}
+
+.menu3 .plat hr {
+  background: url(../img/hrMenu3-2.svg) no-repeat top center;
+  background-size: 840px 25px;
+}
+
+.menu3 .dessert hr {
+  background: url(../img/hrMenu3-3.svg) no-repeat top center;
+  background-size: 840px 25px;
+}
+
+/*# sourceMappingURL=menu3.css.map */

@@ -1,31 +1,30 @@
-.menu2 {
+.menu3 {
   padding: 80px;
   .logoMenu{
     display: flex;
     justify-content: center;
   }
-  img {
-    width: 100px;
+  h2 {
+    font-family: "Sofia", cursive;
   }
-  *{
-    font-family: serif;
+  h3, ul {
+    font-family: "caveatbold";
   }
   h2 {
-    font-size: 2.4em;
-    margin: 2em;
+    font-size: 3.8em;
+    margin: 1em;
   }
   h3 {
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.8em;
     text-align: center;
     position: relative;
-    bottom: 23px;
+    bottom: 36px;
   }
   ul {
     font-weight: lighter;
   }
   li{
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     em{
       font-weight: bold;
@@ -35,7 +34,7 @@
   margin: auto;
   margin-top: 25px;
   width: 970px;
-  background-color: #fff5fe;
+  background-color: #edefef;
   h2{
     text-align: center;
   }
@@ -60,29 +59,20 @@
     margin-bottom: 80px;
   }
   .entree {
-    *{
-      color: #c67412;
-    }
     hr{
-      background: url(../img/hrMenu2-1.svg) no-repeat top center;
+      background: url(../img/hrMenu3-1.svg) no-repeat top center;
       background-size: 840px 25px;
     }
   }
   .plat {
-    *{
-      color: #a56799;
-    }
     hr{
-      background: url(../img/hrMenu2-2.svg) no-repeat top center;
+      background: url(../img/hrMenu3-2.svg) no-repeat top center;
       background-size: 840px 25px;
     }
   }
   .dessert{
-    *{
-      color: #6e4ccc;
-    }
     hr{
-      background: url(../img/hrMenu2-3.svg) no-repeat top center;
+      background: url(../img/hrMenu3-3.svg) no-repeat top center;
       background-size: 840px 25px;
     }
   }

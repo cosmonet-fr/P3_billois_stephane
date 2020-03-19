@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia&display=swap");
 @font-face {
   font-family: 'caveatbold';
   src: url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.eot");
@@ -88,6 +89,10 @@ a {
   font-weight: bold;
   text-decoration: none;
   color: #fdcb46;
+}
+
+a:active, a:focus {
+  outline: none;
 }
 
 body {
