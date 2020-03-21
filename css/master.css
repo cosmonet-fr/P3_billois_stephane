@@ -92,7 +92,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2.8em;
   margin: 0.3em;
 }
 
@@ -132,8 +132,8 @@ nav {
 }
 
 .nav__menu {
-  width: 350px;
-  height: 430px;
+  width: 551px;
+  height: 709px;
   margin: 1em;
   background-color: #fcdfdb;
   display: flex;
@@ -151,10 +151,19 @@ nav {
 .menu__txt {
   text-align: center;
   width: 100%;
+  height: 80%;
+  transition: all 1000ms;
+  padding-top: 40%;
+}
+
+.menu__txt:hover {
+  transform: scale(1.5);
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .menu__txt p {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
 .frame {
@@ -163,18 +172,6 @@ nav {
 
 .menu--note p {
   text-transform: uppercase;
-}
-
-.menu__txt {
-  transition: all 1000ms;
-  height: 430px;
-  padding-top: 40%;
-}
-
-.menu__txt:hover {
-  transform: scale(1.5);
-  opacity: 0.6;
-  cursor: pointer;
 }
 
 .menu--chic {
@@ -189,16 +186,48 @@ nav {
   letter-spacing: -2px;
 }
 
-.menu--chic p {
+.menu--chic h2 {
+  font-size: 2em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#e38913), to(#8f5bfe));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu--chic p a {
   font-weight: bold;
+  color: #c77412;
 }
 
 .menu--papilles {
   background-color: #f9f9f9;
 }
 
+.menu--papilles h2 {
+  background: -webkit-gradient(linear, left top, right top, from(#023be3), to(#229df9));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu--papilles p {
+  background: -webkit-gradient(linear, left top, right top, from(#023be3), to(#229df9));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu--palette {
   background-color: #fdfffd;
+}
+
+.menu--palette h2 {
+  background: -webkit-gradient(linear, left top, right top, from(#4e9e4c), to(#bcfd7e));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu--palette p {
+  background: -webkit-gradient(linear, left top, right top, from(#4e9e4c), to(#bcfd7e));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home-page__box-btn {

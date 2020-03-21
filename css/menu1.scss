@@ -12,6 +12,9 @@
   }
   h2 {
     font-size: 3em;
+    @media (max-width: 1024px) {
+      font-size: 6em;
+    }
   }
   h3 {
     font-size: 3em;
@@ -19,6 +22,11 @@
     text-align: center;
     position: relative;
     bottom: 50px;
+    @media (max-width: 1024px){
+      font-size: 6em;
+      position: relative;
+      top: 0px;
+    }
   }
   ul {
     font-weight: lighter;
@@ -29,6 +37,9 @@
     em{
       font-weight: bold;
       float: right;
+    }
+    @media (max-width: 1024px){
+      font-size: 3em;
     }
   }
   margin: auto;
@@ -46,6 +57,7 @@
     background: url(../img/hrMenu1.svg) no-repeat top center;
 
 
+
     &:after {
       //content: 'Prélude';
       font-size: 50px;
@@ -54,6 +66,9 @@
       top: -24px;
 
 
+    }
+    @media (max-width: 1024px) {
+    display: none;
     }
   }
   .logoMenuBottom {
@@ -66,6 +81,11 @@
     img {
       width: 60px;
     }
+    @media (max-width: 1024px){
+      display: none;
+    }
   }
+
+
 
 }

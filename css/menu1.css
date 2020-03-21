@@ -23,12 +23,26 @@
   font-size: 3em;
 }
 
+@media (max-width: 1024px) {
+  .menu1 h2 {
+    font-size: 6em;
+  }
+}
+
 .menu1 h3 {
   font-size: 3em;
   letter-spacing: -0.075em;
   text-align: center;
   position: relative;
   bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .menu1 h3 {
+    font-size: 6em;
+    position: relative;
+    top: 0px;
+  }
 }
 
 .menu1 ul {
@@ -43,6 +57,12 @@
 .menu1 li em {
   font-weight: bold;
   float: right;
+}
+
+@media (max-width: 1024px) {
+  .menu1 li {
+    font-size: 3em;
+  }
 }
 
 .menu1 h2 {
@@ -64,6 +84,12 @@
   top: -24px;
 }
 
+@media (max-width: 1024px) {
+  .menu1 hr {
+    display: none;
+  }
+}
+
 .menu1 .logoMenuBottom {
   margin: 50px;
   display: flex;
@@ -76,6 +102,12 @@
 
 .menu1 .logoMenuBottom img {
   width: 60px;
+}
+
+@media (max-width: 1024px) {
+  .menu1 .logoMenuBottom {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=menu1.css.map */
