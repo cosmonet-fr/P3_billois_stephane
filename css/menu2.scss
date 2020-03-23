@@ -47,8 +47,9 @@
   background-color: #fff5fe;
   h2{
     text-align: center;
-    background: -webkit-gradient(linear, left top, right bottom, from(#e38913), to(#8f5bfe));
+    background: linear-gradient(150deg, #e38913, #af6ca6, #8f5aff);
     background-clip: text;
+    -webkit-background-clip: text; // Pour webkit Blink & co :-P
     -webkit-text-fill-color: transparent;
     font-weight: 800;
   }

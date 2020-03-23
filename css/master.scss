@@ -134,9 +134,11 @@ nav {
   }
   h2 {
     font-size: 2em;
-    background: -webkit-gradient(linear, left top, right bottom, from(#e38913), to(#8f5bfe));
+    background: linear-gradient(150deg, #e38913, #af6ca6, #8f5aff);
     background-clip: text;
+    -webkit-background-clip: text; // Pour webkit Blink & co :-P
     -webkit-text-fill-color: transparent;
+    color: transparent;
   }
   p a {
     font-weight: bold;
@@ -146,26 +148,30 @@ nav {
 .menu--papilles {
   background-color: #f9f9f9;
   h2{
-    background: -webkit-gradient(linear, left top, right top, from(#023be3), to(#229df9));
+    background: linear-gradient(90deg, #023be3, #229df9);
     background-clip: text;
+    -webkit-background-clip: text; // Pour webkit Blink & co :-P
     -webkit-text-fill-color: transparent;
   }
   p {
-    background: -webkit-gradient(linear, left top, right top, from(#023be3), to(#229df9));
+    background: linear-gradient(90deg, #023be3, #229df9);
     background-clip: text;
+    -webkit-background-clip: text; // Pour webkit Blink & co :-P
     -webkit-text-fill-color: transparent;
   }
 }
 .menu--palette {
   background-color: #fdfffd;
   h2 {
-    background: -webkit-gradient(linear, left top, right top, from(#4e9e4c), to(#bcfd7e));
+    background: linear-gradient(90deg, #4e9e4c, #bcfd7e);
     background-clip: text;
+    -webkit-background-clip: text; // Pour webkit Blink & co :-P
     -webkit-text-fill-color: transparent;
   }
   p {
-    background: -webkit-gradient(linear, left top, right top, from(#4e9e4c), to(#bcfd7e));
+    background: linear-gradient(90deg, #4e9e4c, #bcfd7e);
     background-clip: text;
+    -webkit-background-clip: text; // Pour webkit Blink & co :-P
     -webkit-text-fill-color: transparent;
   }
 }
