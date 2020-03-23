@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Sofia&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Devonshire&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
 @font-face {
   font-family: 'caveatbold';
   src: url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.eot");
@@ -62,7 +66,7 @@ td:not([align]), th:not([align]) {
 }
 
 h2, .nav__menu p {
-  font-family: "caveatbold";
+  font-family: "Devonshire", cursive;
 }
 
 h1, footer a, .home-page__box-btn p {
@@ -97,7 +101,6 @@ h2 {
 }
 
 a {
-  font-weight: bold;
   text-decoration: none;
   color: #fdcb46;
 }
@@ -141,7 +144,7 @@ nav {
 }
 
 .nav__menu a {
-  color: black;
+  color: #3d1319;
 }
 
 .menu__txt {
@@ -183,18 +186,20 @@ nav {
 
 .menu--note p {
   text-transform: uppercase;
+  font-family: "caveatbold";
 }
 
 .menu--chic {
   background-color: #fff5fe;
 }
 
-.menu--chic h2, .menu--chic a, .menu--chic p {
-  font-family: serif;
+.menu--chic h2 {
+  font-family: "Croissant One", serif;
 }
 
 .menu--chic h2, .menu--chic a {
   letter-spacing: -2px;
+  font-weight: normal;
 }
 
 .menu--chic h2 {
@@ -207,6 +212,7 @@ nav {
 }
 
 .menu--chic p a {
+  font-family: serif;
   font-weight: bold;
   color: #c77412;
 }
@@ -216,6 +222,7 @@ nav {
 }
 
 .menu--papilles h2 {
+  font-family: 'Dancing Script', cursive;
   background: linear-gradient(90deg, #023be3, #229df9);
   background-clip: text;
   -webkit-background-clip: text;
@@ -223,6 +230,7 @@ nav {
 }
 
 .menu--papilles p {
+  font-family: "caveatbold";
   background: linear-gradient(90deg, #023be3, #229df9);
   background-clip: text;
   -webkit-background-clip: text;
@@ -234,6 +242,7 @@ nav {
 }
 
 .menu--palette h2 {
+  font-family: 'Kaushan Script', cursive;
   background: linear-gradient(90deg, #4e9e4c, #bcfd7e);
   background-clip: text;
   -webkit-background-clip: text;
@@ -241,6 +250,7 @@ nav {
 }
 
 .menu--palette p {
+  font-family: "caveatbold";
   background: linear-gradient(90deg, #4e9e4c, #bcfd7e);
   background-clip: text;
   -webkit-background-clip: text;
@@ -279,6 +289,10 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+}
+
+footer a {
+  font-weight: bold;
 }
 
 footer p:hover {

@@ -20,7 +20,9 @@
 }
 
 .menu1 h2 {
+  font-family: "Devonshire", cursive;
   font-size: 3em;
+  color: #3d1319;
 }
 
 @media (max-width: 1024px) {
