@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yesteryear&display=swap');
 
 @import "minireset.scss";
+//Fin minireset
 
 $background-color1: #fff;
 $background-color2: #579c87;
@@ -91,9 +92,6 @@ nav {
   a {
     color: black
   }
-  img {
-    width: 48px;
-  }
 }
 
 .menu__txt{
@@ -110,6 +108,19 @@ nav {
   }
   p{
     font-size: 3.5em;
+  }
+  img {
+    width: 48px;
+  }
+}
+
+.link { // Ne marche pas !!!
+  width: 551px;
+  height: 709px;
+  .imgGhost img {
+    background-size: cover;
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -205,4 +216,21 @@ footer{
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  p:hover {
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 0px); }
+    10% { transform: translate(-1px, 0px); }
+    20% { transform: translate(-3px, 0px); }
+    30% { transform: translate(7px, 0px); }
+    40% { transform: translate(1px, 0px); }
+    50% { transform: translate(-1px, 0px) rotate(1deg); }
+    60% { transform: translate(-3px, 0px); }
+    70% { transform: translate(3px,0px) ; }
+    80% { transform: translate(-1px, 0px); }
+    90% { transform: translate(1px, 2px); }
+    100% { transform: translate(1px, 0px) rotate(-1deg); }
+  }
 }
