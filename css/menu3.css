@@ -1,4 +1,6 @@
 .menu3 {
+  display: flex;
+  flex-direction: column;
   padding: 80px;
   margin: auto;
   margin-top: 25px;
@@ -36,10 +38,22 @@
 }
 
 .menu3 h3 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.8em;
   text-align: center;
   position: relative;
   bottom: 36px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .4s;
+}
+
+.menu3 h3:hover {
+  background-size: 100% 2px;
 }
 
 @media (max-width: 1024px) {
@@ -88,6 +102,8 @@
 
 .menu3 .sec_menu {
   margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu3 .entree hr {

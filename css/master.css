@@ -61,6 +61,54 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(1px, 0px);
+  }
+  10% {
+    transform: translate(-1px, 0px);
+  }
+  20% {
+    transform: translate(-3px, 0px);
+  }
+  30% {
+    transform: translate(7px, 0px);
+  }
+  40% {
+    transform: translate(1px, 0px);
+  }
+  50% {
+    transform: translate(-1px, 0px) rotate(1deg);
+  }
+  60% {
+    transform: translate(-3px, 0px);
+  }
+  70% {
+    transform: translate(3px, 0px);
+  }
+  80% {
+    transform: translate(-1px, 0px);
+  }
+  90% {
+    transform: translate(1px, 2px);
+  }
+  100% {
+    transform: translate(1px, 0px) rotate(-1deg);
+  }
+}
+
 .box--shadow {
   box-shadow: 5px 5px 25px #999;
 }
@@ -276,6 +324,18 @@ nav {
   font-weight: bold;
 }
 
+.box-btn__btn span {
+  animation: loading 3s infinite;
+}
+
+.box-btn__btn .loading2 {
+  animation-delay: 1s;
+}
+
+.box-btn__btn .loading3 {
+  animation-delay: 2s;
+}
+
 .space {
   margin: 12px;
 }
@@ -296,44 +356,8 @@ footer a {
 }
 
 footer p:hover {
-  animation: shake 0.7s;
+  animation: wiggle 0.7s;
   animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(1px, 0px);
-  }
-  10% {
-    transform: translate(-1px, 0px);
-  }
-  20% {
-    transform: translate(-3px, 0px);
-  }
-  30% {
-    transform: translate(7px, 0px);
-  }
-  40% {
-    transform: translate(1px, 0px);
-  }
-  50% {
-    transform: translate(-1px, 0px) rotate(1deg);
-  }
-  60% {
-    transform: translate(-3px, 0px);
-  }
-  70% {
-    transform: translate(3px, 0px);
-  }
-  80% {
-    transform: translate(-1px, 0px);
-  }
-  90% {
-    transform: translate(1px, 2px);
-  }
-  100% {
-    transform: translate(1px, 0px) rotate(-1deg);
-  }
 }
 
 /*# sourceMappingURL=master.css.map */

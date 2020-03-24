@@ -1,4 +1,6 @@
 .menu1 {
+  display: flex;
+  flex-direction: column;
   padding: 80px;
   .logoMenu{
     display: flex;
@@ -19,11 +21,22 @@
     }
   }
   h3 {
+    display: inline-block;// Pour que le sous ligné ne fasse pas toute la largeur de la page !
+    margin-left: auto;// Pour le centrer
+    margin-right: auto;// Pour le centrer
     font-size: 3em;
     letter-spacing: -0.075em;
     text-align: center;
     position: relative;
     bottom: 50px;
+    background-image: linear-gradient(currentColor, currentColor);// Pour effet sousligné
+    background-position: 0% 100%;// Pour effet sousligné
+    background-repeat: no-repeat;// Pour effet sousligné
+    background-size: 0% 2px;// Pour effet sousligné
+    transition: background-size .4s;// Pour effet sousligné
+    &:hover {// Pour effet sousligné
+      background-size: 100% 2px;// Pour effet sousligné
+    }
     @media (max-width: 1024px){
       font-size: 6em;
       position: relative;
