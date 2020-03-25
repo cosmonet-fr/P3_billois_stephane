@@ -148,6 +148,10 @@ h2 {
   margin: 0.3em;
 }
 
+h3 {
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: #fdcb46;

@@ -1,24 +1,9 @@
 @keyframes loadingHeader {
   0% {
-    transform: scaleY(0);
+    transform: translateY(-208px);
   }
   100% {
-    transform: scaleY(1);
-  }
-}
-
-@keyframes ohMyFood {
-  0% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  76% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
+    transform: translateY(0px);
   }
 }
 
@@ -33,23 +18,19 @@
 
 @keyframes loadingFooter {
   0% {
-    transform: scaleY(0);
+    transform: translateY(150px);
   }
   50% {
-    transform: scaleY(0);
+    transform: translateY(150px);
   }
   100% {
-    transform: scaleY(1);
+    transform: translateY(0px);
   }
 }
 
 header {
   transform-origin: top;
   animation: loadingHeader 1000ms;
-}
-
-header h1 {
-  animation: ohMyFood 1500ms;
 }
 
 .nav__menu {
