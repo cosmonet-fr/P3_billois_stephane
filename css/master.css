@@ -1,4 +1,3 @@
-@import url(../font/web fonts/bitstreamverasans_bold_macroman/stylesheet.css);
 @import url("https://fonts.googleapis.com/css?family=Sofia&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Devonshire&display=swap");
@@ -6,9 +5,17 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
 @font-face {
+  font-family: 'dejavu_sansbold';
+  src: url("../font/webfonts/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.eot");
+  src: url("../font/webfonts/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/webfonts/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.woff2") format("woff2"), url("../font/webfonts/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.woff") format("woff"), url("../font/webfonts/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.ttf") format("truetype"), url("../font/webfonts/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.svg#dejavu_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'caveatbold';
-  src: url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.eot");
-  src: url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.woff2") format("woff2"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.woff") format("woff"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.ttf") format("truetype"), url("../font/caveat/web fonts/caveat_bold_macroman/caveat-bold-webfont.svg#caveatbold") format("svg");
+  src: url("../font/caveat/webfonts/caveat_bold_macroman/caveat-bold-webfont.eot");
+  src: url("../font/caveat/webfonts/caveat_bold_macroman/caveat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/caveat/webfonts/caveat_bold_macroman/caveat-bold-webfont.woff2") format("woff2"), url("../font/caveat/webfonts/caveat_bold_macroman/caveat-bold-webfont.woff") format("woff"), url("../font/caveat/webfonts/caveat_bold_macroman/caveat-bold-webfont.ttf") format("truetype"), url("../font/caveat/webfonts/caveat_bold_macroman/caveat-bold-webfont.svg#caveatbold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -119,7 +126,7 @@ h2, .nav__menu p {
 }
 
 h1, footer a, .home-page__box-btn p {
-  font-family: 'bitstream_vera_sansbold', sans-serif;
+  font-family: 'dejavu_sansbold', sans-serif;
 }
 
 header h1 {
