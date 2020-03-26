@@ -15,7 +15,7 @@
       </header>
       <div class="body__home-page">
         <nav>
-          <div class="nav__menu menu--note box--shadow">
+          <div class="nav__menu menu--note box--shadow" onclick="window.location.href='pages/menu1.html'">
             <div class="link"> <!--Ne marche pas !!! -->
               <a href="pages/menu1"><img src="img/ghost.png" alt="" class="imgGhost" > </a>
 
@@ -29,7 +29,7 @@
             </div>
           </div>
 
-          <div class="nav__menu menu--chic box--shadow">
+          <div class="nav__menu menu--chic box--shadow" onclick="window.location.href='pages/menu2.html'">
             <div class="menu__txt">
 
               <h2><a href="pages/menu2.html">Le chic à la française</a></h2>
@@ -39,7 +39,7 @@
             </div>
           </div>
 
-          <div class="nav__menu menu--papilles box--shadow">
+          <div class="nav__menu menu--papilles box--shadow" onclick="window.location.href='pages/menu3.html'">
             <div class="menu__txt">
 
               <h2><a href="pages/menu3.html">Le délice des papilles</a></h2>
@@ -49,7 +49,7 @@
             </div>
           </div>
 
-          <div class="nav__menu menu--palette box--shadow">
+          <div class="nav__menu menu--palette box--shadow" onclick="window.location.href='pages/menu4.html'">
             <div class="menu__txt">
 
               <h2><a href="pages/menu4.html">La palette du goût</a></h2>
@@ -69,6 +69,11 @@
       <footer><p><a href="pages/mentionsLegales.html">Mentions Légales</a></p> <p><a href="mailto:joe@example.com?subject=feedback">Contactez-nous</a></p> </footer>
 
     </div>
+    <script type="text/javascript">
+        let url = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        console.log (url);
+
+    </script>
 
   </body>
 </html>
